@@ -1,0 +1,13 @@
+
+.game_square {
+    width: 100px;
+    height: 100px;
+    /* border-bottom: 5px solid #234d38; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game_square:hover {
+    background-color: #2a915f;
+}

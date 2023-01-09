@@ -1,4 +1,35 @@
 
+@media (min-width:993px) and (max-width: 1198px){
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+
+@media (min-width: 415px) and (max-width: 766px) {
+    .container {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 667px) {
+    .container {
+        max-width: 359px;
+    }
+}
+
+@media (max-width: 359px){
+    .container {
+        max-width: none;
+    }
+}
+
 .background {
     background-color: #4dab7d;
 }
@@ -7,4 +38,18 @@
     width: 1000px;
     height: 450px;
     margin: 0 auto;
+}
+
+.square {
+    margin: 0 auto;
+    padding-top: 50px;
+    /* height: 500px; */
+    /* display: none; */
+}
+
+.square_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 5px solid #234d38; */
 }
