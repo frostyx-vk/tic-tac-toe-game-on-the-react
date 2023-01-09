@@ -1,5 +1,5 @@
 import React from 'react';
-import Head from './components/Head/head';
+import Head from './components/Head/Head';
 
 function App() {
   return (
