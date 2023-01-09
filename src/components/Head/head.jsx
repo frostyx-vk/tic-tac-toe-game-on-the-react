@@ -5,9 +5,11 @@ import classes from './Head.module.css';
 
 function Head() {
   return (
-    <div className={classes.mainbutton}>
-      <Button_x />
-      <Button_o />
+    <div>
+      <div className={classes.mainbutton}>
+        <Button_x />
+        <Button_o />
+      </div>
     </div>
   );
 }
