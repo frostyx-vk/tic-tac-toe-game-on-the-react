@@ -1,0 +1,14 @@
+
+.restart {
+    text-align: center;
+}
+
+.button__restart {
+    background-color: white;
+    border: none;
+    color: #63b88b;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+}
