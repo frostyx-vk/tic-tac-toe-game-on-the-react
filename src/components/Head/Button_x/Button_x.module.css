@@ -13,20 +13,10 @@
     font-size: 20px;
 }
 
-/* .symbol_x::after,
-.symbol_o::after {
-    display: block;
-    content: "";
-    background-repeat: no-repeat;
-    background-size: auto 30px;
-    height: 30px;
-    width: 30px;
+.button__start:hover {
+    border-bottom: 2px solid #63b88b;
 }
 
-.symbol_x::after {
-    background-image: url("./x.svg");
+.button__active {
+    border-bottom: 2px solid #63b88b;
 }
-
-.symbol_o::after {
-    background-image: url("./o.svg");
-} */

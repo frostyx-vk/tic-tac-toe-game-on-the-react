@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import classes from './Square.module.css';
 
 function Square() {
 
   return (
     <div 
-    className={classes.game_square}>
+    className={classes.game_square}
+    >
     
     </div>
   );
