@@ -1,0 +1,7 @@
+
+.nameplayers {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
+}
