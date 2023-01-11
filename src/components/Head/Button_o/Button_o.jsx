@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Button_o.module.css'
+import svg from './../../../img/o.svg'
 
 function Button_o() {
   return (
@@ -9,7 +10,7 @@ function Button_o() {
       onclick="handleButton(this)" 
       type="button"
       >
-
+        <img src={svg} width='30px' height='30px'/>
       </button>
     </div>
   );
