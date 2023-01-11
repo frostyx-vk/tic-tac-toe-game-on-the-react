@@ -6,16 +6,6 @@ import Square from './Square/Square';
 
 function Body() {
 
-  let nextValue;
-
-  const defaultGameState = [
-    [null, null, null],
-    [null, null, null],
-    [null, null, null],
-  ];
-
-  let gameState = defaultGameState.slice();
-
   return (
     <div className={classes.background}>
       <div className={classes.container}>

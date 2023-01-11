@@ -4,12 +4,12 @@ import Button_o from './Button_o/Button_o';
 import classes from './Head.module.css';
 import Nameplayers from './Nameplayers/Nameplayers';
 
-function Head() {
+function Head(props) {
   return (
     <div>
       <div className={classes.mainbutton}>
-        <Button_x />
-        <Button_o />
+        <Button_x button={props.handleButton} />
+        <Button_o button={props.handleButton} />
       </div>
         <Nameplayers />
     </div>
